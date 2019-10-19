@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Martin Pusar - Home</title>
+		<meta charset="utf-8">
+		<meta name="Keywords" content="Martin Pusar, spletne strani, kitara, Pusar, izdelava spletnih strani">
+		<meta name="author" content="Martin Pusar">
+		<link rel="stylesheet" href="styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	</head>
+		
+	<body>
+		<script>
+		
+		</script>
+		<header id="header">
+			<a href="index.html" class="current">Home</a>
+			<a href="youtube.html" class="headerStyle">Youtube</a>
+			<a href="about.html" class="headerStyle">About</a>
+		</header>
+		
+		<section id="section1">
+			<div id="title-main">
+				<h1>Martin Pusar</h1>
+			</div>
+			
+		</section>
+		
+		<section id="section2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio quasi quo soluta ab. Laboriosam quibusdam quia dignissimos eius ea eligendi commodi odio rerum facilis cumque amet id delectus iusto beatae magni architecto ullam officia dolorum deserunt, dolorem similique? Ut neque aut voluptatibus id suscipit impedit pariatur saepe modi dolor ratione quam molestias esse facilis, officia necessitatibus delectus quas beatae nostrum sint placeat. Corrupti iste sed, iusto ut totam quam tempore doloribus perspiciatis impedit explicabo esse iure quod aut. Deserunt assumenda magni nam at repellat tempore odio ab architecto commodi, nostrum incidunt repellendus doloribus a dicta fugit, accusamus explicabo et? Eligendi!</p>
+		</section>
+		
+		<footer>
+			<a href="https://www.instagram.com/martin_pusar/?hl=en" target="_blank"><img src="instagram-logo.png" alt="instagram" width="2.2%"></a>
+			<a href="https://www.facebook.com/martin.pusar?ref=bookmarks" target="_blank"><img src="facebook-logo.png" alt="facebook" width="2%"></a>
+			
+		</footer>
+		
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("header").style.top = "0";
+				} else {
+					document.getElementById("header").style.top = "-90px";
+				}
+				prevScrollpos = currentScrollPos;
+			}
+</script>
+	</body>
+		
+</html>

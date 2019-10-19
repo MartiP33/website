@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Martin Pusar - About</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body id="body-about">
+		<header id="header">
+			<a href="index.html" class="headerStyle">Home</a>
+			<a href="youtube.html" class="headerStyle">Youtube</a>
+			<a href="about.html" class="current">About</a>
+		</header>
+		<section id="section-about">
+			<div id="text-about">
+				<h2 style="color: white; text-transform: uppercase; font-size: 160%;">About</h2>
+				<p style="color: white">My name's Martin <br>
+				and I think I don't actually know <br>
+				what it's about <br>
+				(pun intended)</p>
+			</div>
+		</section>
+		<footer>
+			<a href="https://www.instagram.com/martin_pusar/?hl=en" target="_blank"><img src="instagram-logo.png" alt="instagram" width="2.2%"></a>
+			<a href="https://www.facebook.com/martin.pusar?ref=bookmarks" target="_blank"><img src="facebook-logo.png" alt="facebook" width="2%"></a>
+			
+		</footer>
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("header").style.top = "0";
+				} else {
+					document.getElementById("header").style.top = "-90px";
+				}
+				prevScrollpos = currentScrollPos;
+			}
+</script>
+	</body>
+</html>
